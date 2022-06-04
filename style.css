@@ -13,9 +13,12 @@
     
 }
 
+.background-color-div{
+    background-color: #F5F8FF;
+}
+
 .hero-image{
     width: 100%;
-    background-color: #F5F8FF;
     margin-bottom:5.75rem;
     
 }
@@ -36,7 +39,6 @@
     padding-top: 2.6rem;
     width: 90%;
     margin:0 auto;
-    background-color: #F5F8FF;
 }
 
 .hero-text{
@@ -228,7 +230,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F5F8FF;
 }
 
 .post-card-image{
@@ -244,3 +245,16 @@
     font-size: 1.375rem;
     margin-bottom: 5.5rem;
 }
+
+/* Media-Queries */
+
+@media only screen and (min-width: 600px) {
+    
+    html{
+        font-size: 20px;
+    }
+
+    .step-1-image{
+        width: 70%;
+    }
+  }
