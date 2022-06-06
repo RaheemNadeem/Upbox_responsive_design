@@ -157,6 +157,7 @@
 .step-1-image{
     margin-bottom:2.6rem;
     width: 100%;
+    max-width: 336px;
 }
 
 .step-1-heading{
@@ -249,12 +250,36 @@
 /* Media-Queries */
 
 @media only screen and (min-width: 600px) {
-    
     html{
         font-size: 20px;
     }
+    
+    .subs-card{
+        padding: 3.12rem 5.37rem;
+    }
 
     .step-1-image{
-        width: 70%;
+        width: 48%;
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .second-image{
+       float: right;
+       margin-right: 0;
+       margin-left: 2rem;
+    }
+    
+    .step-1-heading{
+        margin-top: 10rem;
+        font-size: 2rem;
+    }
+    .step-1-para{
+       
+        font-size: 1rem;
+    }
+
+    .step-3{
+        margin-top: 2.93rem;
     }
   }
